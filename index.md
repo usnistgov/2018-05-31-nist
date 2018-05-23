@@ -11,7 +11,7 @@ humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2018-05-31      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-06-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Arlin Stoltzfus", "Chandler Becker", "Justin Senseney", "Bill Krekelberg", "Dan Wheeler" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Randall McDermott", "Dilip Banerjee", "Jon Guyer"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Randall McDermott", "Dilip Banerjee", "Andrew Reid", "Marcus Mendenhall", "Jared Ragland", "Gretchen Greene", "Zak Mohamoud", "Zachary Trautt", "Jon Guyer"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["cbecker@nist.gov"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -126,6 +126,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Library Carpentry's
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  Note that class size will be limited to 40 students.  Contact Chandler Becker, cbecker@nist.gov, to sign up.  Once the class is full, we will start a waiting list.  If the class is not filled by summer students, NIST staff and associates may sign up.
 </p>
 
 {% comment %}
